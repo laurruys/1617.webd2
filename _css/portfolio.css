@@ -1,0 +1,148 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-style: normal;
+}
+
+#titel{
+    font-size:30px;
+}
+
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 19px;
+    font-style: normal;
+}
+
+p{
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-style: normal;
+    font-variant: lighter;
+}
+
+.nav{
+    list-style:none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav li{
+    display: inline;
+    padding-right: 25px;
+}
+
+.nav a{
+    display:inline-block;
+    padding:20px 15px;
+}
+
+li a{
+    color: black;
+    text-decoration-line: none;
+}
+
+li a.active {
+    background-color: rgb(236,236,236);
+    padding: 8px 16px;
+}
+
+/* Body */
+body{
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 12px;
+}
+
+.foto-portfolio{
+   width:100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p.highlight{
+    color: rgb(167, 169, 172);
+    text-align: center;
+    font-style: italic;
+}
+
+footer{
+    background-color: rgb(104, 53, 72);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: left;
+    display:inline-block;
+    width: 100%;
+}
+
+.social-links{
+    color: white;
+    padding:auto;
+}
+
+.footer-copyright{
+    text-align: right;
+    color: white;
+}
+
+.social-icons{
+    list-style:none;
+    margin: 0;
+    margin-left: 30px;
+    padding:0;
+    text-align: left;
+    text-decoration: none;
+}
+
+.social-icons li {
+    display: inline;
+    padding:5px;
+}
+
+  /* background*/
+  a.logo{
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+    overflow:hidden;
+}
+
+
+
+
+
